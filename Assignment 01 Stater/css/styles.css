@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    line-height: 1.7;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 14px;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 28;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(100, 98, 98);
+    padding-bottom: 16px;
+}
+
+.name{
+    font-size: 44px;
+    color: #0e2452;
+}
+
+#info{
+    position: relative;
+}
+
+.avt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 113px;
+    height: 113px;
+}
+
+.time{
+    width: 200px;;
+}
+
+.flex{
+    display: flex;
+    column-gap: 50px;
+    border-bottom: 2px solid #e9ecef;
+    padding: 4px;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover,
+a:active{
+   font-size: 20px;
+   cursor: pointer;
+}
+
+ /* Phần nâng cao */
+  .time-bar{
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .time-bar:before {
+    content: '';
+    background-color: rgb(17, 17, 17);
+    position: absolute;
+    bottom: 12px;
+    top: 0px;
+    left: 6px;
+    width: 1px;
+  }
+  
+  .point:after {
+    content: '';   
+    background-color: #520e22;
+    border-radius: 50%;
+    position: absolute;
+    left: 3.5px;
+    height: 6px;
+    width: 6px;
+  }
+
